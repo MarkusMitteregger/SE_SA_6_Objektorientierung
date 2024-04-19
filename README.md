@@ -15,4 +15,13 @@
 - Sie können sie einzeln installieren indem sie folgenden Befehl in die Komandozeile von Windows Powershell eingeben: pip install <gewünschtes Paket>
 - Sie können auch alle Pakete gleichszeitig installieren indem sie folgenden Befehl in die Komandozeile von Windows Powershell eingeben: pip install -r requirements.txt
 ## Verwenden des Codes
-- Geben Sie die Daten für den Supervisor ein
+- Geben Sie die nötigen Daten des Supervisor ein. (Vorname / Nachname / Geschlecht / Alter)
+- Geben Sie die nötigen Daten des Subjects ein. (Vorname / Nachname / Geschlecht / Alter)
+- Geben Sie den gewünschten Namen des Experiments ein.
+- Geben Sie das gewünschte Datum ein.
+- Nun können Sie auswählen welche Daten Sie als json-Datei speichern wollen. (Supervisor / Subject / Experiment / Exit)
+- Durch die Eingabe von Exit wird der Vorgang abgebrochen und keine Datein werden gespeichert.
+- Nun wird abgefragt ob weitere Daten eingegeben werden wollen. (Ja / Nein).
+- Mit Nein wird das Programm abgebrochen mit Ja können Sie erneut Daten eingeben.
+- Generell wird bei einer ungültigen Eingabe eine Fehlermeldung hervorgerufen und die Eingabe wiederholt.
+  
